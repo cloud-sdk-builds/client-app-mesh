@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-app-mesh`](https://www.npmjs.com/package/@aws-sdk/client-app-mesh/v/3.112.0).
+[`@aws-sdk/client-app-mesh`](https://www.npmjs.com/package/@aws-sdk/client-app-mesh/v/3.118.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.112.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.118.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-etFwnDzA87dg5CSFH2UULf68YDgiKSyxn3q5LW+NSRtbksRfm4ZQBttwPq2+Y8Ub
+sha384-hu3m8nZWW3Ajh1KkoehLtKctatZ6/rYmLabCF7Z9Ts+ngFsbuVaQnasT1VU0p10H
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-app-mesh": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.112.0/index.min.mjs"
+            "@aws-sdk/client-app-mesh": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.118.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.112.0/index.min.mjs": "sha384-etFwnDzA87dg5CSFH2UULf68YDgiKSyxn3q5LW+NSRtbksRfm4ZQBttwPq2+Y8Ub"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.118.0/index.min.mjs": "sha384-hu3m8nZWW3Ajh1KkoehLtKctatZ6/rYmLabCF7Z9Ts+ngFsbuVaQnasT1VU0p10H"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-app-mesh": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.112.0/index.min.mjs"
+                        "@aws-sdk/client-app-mesh": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.118.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.112.0/index.min.mjs": "sha384-etFwnDzA87dg5CSFH2UULf68YDgiKSyxn3q5LW+NSRtbksRfm4ZQBttwPq2+Y8Ub"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-app-mesh@3.118.0/index.min.mjs": "sha384-hu3m8nZWW3Ajh1KkoehLtKctatZ6/rYmLabCF7Z9Ts+ngFsbuVaQnasT1VU0p10H"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.112.0`)
+* Always pin to a specific version (`@3.118.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-app-mesh/blob/refs/tags/3.112.0/LICENSE
+https://github.com/cloud-sdk-builds/client-app-mesh/blob/refs/tags/3.118.0/LICENSE
 ```
 
 ---
